@@ -1,0 +1,11 @@
+{
+  "name": "auth-services",
+  "version": "1.0.0",
+  "description": "pizza app auth services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gokul Modi <gokulmodi369@gmail.com>",
+  "license": "ISC"
+}
