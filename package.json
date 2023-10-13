@@ -4,12 +4,15 @@
   "description": "pizza app auth services",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/server.ts",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
   },
   "author": "Gokul Modi <gokulmodi369@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.8.5",
+    "prettier": "3.0.3",
     "typescript": "^5.2.2"
   }
 }
