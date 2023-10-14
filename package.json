@@ -11,8 +11,11 @@
     "lint:fix": "eslint . --fix",
     "prepare": "husky install"
   },
-  "lint-staged":{
-    "*.ts":["npm run lint:fix", "npm run format:fix"]
+  "lint-staged": {
+    "*.ts": [
+      "npm run lint:fix",
+      "npm run format:fix"
+    ]
   },
   "author": "Gokul Modi <gokulmodi369@gmail.com>",
   "license": "ISC",
