@@ -8,7 +8,7 @@
     "format:check": "prettier . --check",
     "format:fix": "prettier . --write",
     "lint": "eslint .",
-    "lint:fix": "eslint .",
+    "lint:fix": "eslint . --fix",
     "prepare": "husky install"
   },
   "author": "Gokul Modi <gokulmodi369@gmail.com>",
