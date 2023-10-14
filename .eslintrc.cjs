@@ -8,4 +8,8 @@ module.exports = {
         tsconfigRootDir: __dirname,
     },
     root: true,
+    rules: {
+        "no-console": "error",
+        "dot-notation": "error"
+    }
 };
